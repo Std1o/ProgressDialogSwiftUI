@@ -11,6 +11,7 @@
 		9864DFAE2647025E0065180F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9864DFAD2647025E0065180F /* ContentView.swift */; };
 		9864DFB0264702620065180F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9864DFAF264702620065180F /* Assets.xcassets */; };
 		9864DFB3264702620065180F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9864DFB2264702620065180F /* Preview Assets.xcassets */; };
+		9864DFBC264703050065180F /* ProgressDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9864DFBB264703050065180F /* ProgressDialog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		9864DFAF264702620065180F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9864DFB2264702620065180F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9864DFB4264702620065180F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9864DFBB264703050065180F /* ProgressDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressDialog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				9864DFAF264702620065180F /* Assets.xcassets */,
 				9864DFB4264702620065180F /* Info.plist */,
 				9864DFB1264702620065180F /* Preview Content */,
+				9864DFBB264703050065180F /* ProgressDialog.swift */,
 			);
 			path = ProgressDialogSwiftUI;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9864DFBC264703050065180F /* ProgressDialog.swift in Sources */,
 				9864DFAE2647025E0065180F /* ContentView.swift in Sources */,
 				9864DFAC2647025E0065180F /* ProgressDialogSwiftUIApp.swift in Sources */,
 			);

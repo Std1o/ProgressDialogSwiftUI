@@ -1,16 +1,21 @@
-//
-//  ContentView.swift
-//  ProgressDialogSwiftUI
-//
-//  Created by Илья on 08.05.2021.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var show = false
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            Button(action: {show.toggle()}) {
+                Text("Custom Indicator")
+            }
+            if show {
+                GeometryReader { geometry in
+                     ProgressDialog().frame(width: geometry.size.width, height: geometry.size.height, alignment: .center)
+                }.background(Color.black.opacity(0.45).edgesIgnoringSafeArea(.all)).onTapGesture {
+                    show.toggle()
+                }
+            }
+        }
     }
 }
 
